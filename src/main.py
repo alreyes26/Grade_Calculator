@@ -17,9 +17,6 @@ class main:
               arr = np.append(arr, spot)
               print(arr)
               
-              
-        
-              
     
     
 calculation = main()
