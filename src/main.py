@@ -5,24 +5,15 @@ class main:
     
    def func(self):
        
-       new_arr = np.array(input("Enter your numbers separated by commas: ").split(','), dtype=int)
-       arr = np.array([])
-       
-       for spot in new_arr:
-           
-           if(spot < 0 or spot > 100):
-               print("Invalid number, please enter a number between 0 and 100.")
-               return
-           else:
-              arr = np.append(arr, spot)
-              print(arr)
-              
-    
-    
-calculation = main()
+        a = np.array([1, 2, 3])
+        b = np.array([4, 5, 6])
+        c = a + b
+        print(c)
+        
 
-result = calculation.func()
-print(result)
+
+x = main()
+x.func()
 
 
     
