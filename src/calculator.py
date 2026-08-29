@@ -21,14 +21,13 @@ def calculate_weighted_grade(categories: dict):
         weight = categories[category]["weight"]
         grades = categories[category]["grades"]
 
-        # Only count categories that have grades
+   
         if len(grades) > 0:
             average = calculate_average(grades)
 
             final_grade += average * weight
             active_weight += weight
 
-    # Prevent division by zero if there are no grades at all
     if active_weight == 0:
         return 0
     
