@@ -33,20 +33,3 @@ def calculate_weighted_grade(categories: dict):
         return 0
     
     return round(final_grade / active_weight, 2)
-
-categories = {
-    "tests": {
-        "grades": [90, 85, 95],
-        "weight": 0.50
-    },
-    "quizzes": {
-        "grades": [80, 90, 85],
-        "weight": 0.30
-    },
-    "homework": {
-        "grades": [100, 95, 100],
-        "weight": 0.20
-    }
-}
-
-print(calculate_weighted_grade(categories))
