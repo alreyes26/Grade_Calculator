@@ -29,3 +29,40 @@ physics_1 = {
         }
     }
 }
+
+
+APUSH = {
+    "name": "APUSH",
+    "teacher": "Mrs. Ellis",
+
+    "categories": {
+        "classwork": {
+            "weight": 0.10,
+            "grades": []
+        },
+
+        "projects": {
+            "weight": 0.20,
+            "grades": []
+        },
+
+        "participation": {
+            "weight": 0.10,
+            "grades": []
+        },
+
+        "quizzes": {
+            "weight": 0.20,
+            "grades": []
+        },
+
+        "mcqs": {
+            "weight": 0.20,
+            "grades": []
+        },
+        "frqs": {
+            "weight": 0.20,
+            "grades": []
+        }
+    }
+        }
